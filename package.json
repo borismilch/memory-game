@@ -1,0 +1,58 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "webApp",
+  "private": true,
+  "scripts": {
+    "start": " cross-env NODE_ENV=development webpack serve  --mode development --open",
+    "build": " cross-env NODE_ENV=production webpack --mode production",
+    "dev": "cross-env NODE_ENV=development webpack --mode production",
+    "watch": "cross-env NODE_ENV=development webpack --mode development --watch"
+  },
+  "keywords": [
+    "ddd"
+  ],
+  "browserslist": "> 0.25%, not dead",
+  "author": "huilo",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.2.0",
+    "csv-loader": "^3.0.3",
+    "eslint": "^7.32.0",
+    "eslint-loader": "^4.0.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.0",
+    "node-sass": "^6.0.1",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "sass": "^1.37.5",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "terser-webpack-plugin": "^5.1.4",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "-": "0.0.1",
+    "@babel/polyfill": "^7.12.1",
+    "@material-ui/core": "^4.12.3",
+    "firebase": "^8.9.1",
+    "firebase-admin": "^9.11.0",
+    "jquery": "^3.6.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "normalize.css": "^8.0.1",
+    "webpack-serve": "^4.0.0",
+    "xml-loader": "^1.2.1"
+  }
+}
